@@ -4,13 +4,13 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import pic2 from '../assets/images/pitch-finder.png';
+// import pic3 from '../assets/images/pic03.jpg';
+// import pic4 from '../assets/images/pic04.jpg';
+// import pic5 from '../assets/images/pic05.jpg';
+// import pic6 from '../assets/images/pic06.jpg';
+// import pic7 from '../assets/images/pic07.jpg';
+import pic8 from '../assets/images/seattle.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Edgar</strong>
               <br />
               Web developer
             </h2>
@@ -53,10 +53,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Some of my projects I worked on:
           </p>
 
           <div className="row">
@@ -66,10 +63,10 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Pitch Finder</h3>
                 </header>
               </article>
-              <article className="item">
+              {/* <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic3} alt="" />
                 </a>
@@ -112,7 +109,7 @@ const IndexPage = () => (
                 <header>
                   <h3>Orci Convallis</h3>
                 </header>
-              </article>
+              </article> */}
             </div>
           </div>
         </div>
@@ -129,13 +126,16 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
+          I am a Seattle based software developer with a background in customer service, working in restaurants as a server,  helped me so much to interact with a lot of people every day. Work under high levels of pressure and be a great team player. I spend some of my free time advancing some of the skills I have learned to personally grow more every day and become a better developer.  Some of my skills are in Front End Development. I’m passionate about the problem-solving aspect, and art in this industry.   I'm looking to start in a company where I can use all the skills that I have learned while I keep growing in my own career.
+          I believe that a great developer doesn’t let their ego get in the way of taking positive or negative feedback, I do think that is really important to succeed.  
+
+            {/* Developers football competition in diameter big price to layer the
             pot. Chavez ultricies care who wants to CNN. Lobortis elementum
             aliquet eget a den of which they do not hold it in hatred developers
             nor the mountains of the deposit slip. The element of time, sem ante
             ullamcorper dolor nulla quam placerat viverra environment is not
             with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            partners or to decorate each targeted. */}
           </p>
         </div>
       </section>
